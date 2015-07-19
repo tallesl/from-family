@@ -32,7 +32,7 @@ Checks the family of a HTTP status code.
 
 ```js
 $ npm install from-family
-from-family@1.0.0 node_modules/from-family
+from-family@1.0.1 node_modules/from-family
 $ node
 > var fromFamily = require('from-family')
 undefined

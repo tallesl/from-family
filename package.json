@@ -19,7 +19,7 @@
     "success"
   ],
   "license": "Fair",
-  "main": "./bin/from-family.js",
+  "main": "./lib/from-family.js",
   "name": "from-family",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "coveralls": "^2.11.3",
     "istanbul": "^0.3.17",
