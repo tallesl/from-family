@@ -32,13 +32,13 @@ Checks the family of a HTTP status code.
 
 ```js
 $ npm install from-family
-from-family@1.0.1 node_modules/from-family
+from-family@1.1.0 node_modules/from-family
 $ node
 > var fromFamily = require('from-family')
 undefined
-> fromFamily.success(201) // 201 (Created) is from "Success" family
+> fromFamily.success(201)     // 201 (Created) is from "Success" family
 true
-> fromFamily.clientError(301) // 301 (Found) is from "Redirection" family
+> fromFamily.clientError(res) // It also reads response's 'statusCode'
 false
 ```
 

@@ -261,6 +261,12 @@ it('5xx Server Error', function () {
 
 })
 
+it('response\'s \'statusCode\'', function () {
+
+  assert.equal(fromFamily.success({ statusCode: 200 }), true)
+
+})
+
 it('random things', function () {
 
   assert.equal(fromFamily.informational(),                false)
