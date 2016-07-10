@@ -1,18 +1,15 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/from-family/issues"
+    "url": "https://github.com/tallesl/node-from-family/issues"
   },
-  "dependencies": {
-    "is-integer": "^1.0.4"
-  },
-  "description": "checks the family of a HTTP status code",
+  "description": "Checks the family of a HTTP status code.",
   "devDependencies": {
-    "coveralls": "^2.11.3",
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5"
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
   },
-  "homepage": "https://github.com/tallesl/from-family",
   "keywords": [
     "check",
     "client",
@@ -27,14 +24,13 @@
     "success"
   ],
   "license": "Fair",
-  "main": "./lib/from-family.js",
   "name": "from-family",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/from-family.git"
+    "url": "https://github.com/tallesl/node-from-family.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
